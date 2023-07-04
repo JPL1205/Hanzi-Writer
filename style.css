@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('asset/Gallery.png');
+    background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+
+}
+section {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* width: clamp(300px, 50vw, 500px); */
+    width: 400px;
+    margin: 1rem;
+    padding: 8px;
+    box-shadow: 1px 1px 5px rgb(195, 193, 193);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.792);
+
+    /* border: 1px solid black; */
+}
+
+.board {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    min-height: 280px;
+    box-shadow: 1px 1px 5px rgb(195, 193, 193);
+    border-radius: 5px;
+    background: #f3f2f2;
+
+
+    /* border: 1px solid black; */
+}
+.icon-container {
+    display: flex;
+    padding: 10px 0px 10px 5px;
+    /* border: 1px solid black; */
+}
+
+.heart {
+    margin-right: 5px;
+}
+
+.message {
+    margin-right: auto;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+.material-symbols-outlined:hover {
+    color: rgb(183, 89, 89);
+    font-variation-settings: 'wght' 400;
+   
+}
+
+.icon-container button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+    font-weight: 800;
+    color: rgb(220, 68, 68);
+    margin-right: 5px;
+}
+
+.icon-container button:hover {
+    box-shadow: 0px 0px 2px gray;
+}
+
+.text {
+    height: 60px;
+    padding: 0.2rem 0rem;
+    font-size: 0.8rem;
+}
+
+.signature {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+  
+
+
